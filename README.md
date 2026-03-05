@@ -24,6 +24,16 @@ pip install -r requirements.txt
 python -m streamlit run source/app.py 
 ```
 
+## Running tests
+
+Run unit tests in the `snom-qc` conda environment:
+
+```bash
+mkdir -p /tmp/mpl /tmp/xdg-cache
+MPLCONFIGDIR=/tmp/mpl XDG_CACHE_HOME=/tmp/xdg-cache \
+conda run --no-capture-output -n snom-qc python -m unittest discover -s tests -v
+```
+
 ## Citing this work
 
 This work is licensed under the GNU General Public License version 3.
