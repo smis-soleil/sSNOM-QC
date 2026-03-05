@@ -526,7 +526,7 @@ def main():
 
     For best comparison between measurements we suggest to use the following parameters.
 
-    Tapping amplitude: 70 nm
+    In-contact tapping amplitude: 80 nm
     Number of acquisitions: 16
     Integration time: 20 ms
     Spectral resolution: 6 cm⁻¹
